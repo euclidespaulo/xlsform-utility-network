@@ -1,5 +1,5 @@
 # Search inconsistent Utility Network Rules
-The network rules dictate which features can connect to or associate with other types of features. This form allows users to search what assets are used to connect the pipeline and submit a correction.
+The network rules dictate which features can connect to or associate with other types of features. This form allows users to search what assets are used to connect the pipelines and submit a correction.
 
 # Usage 
 
