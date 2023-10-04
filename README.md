@@ -1,12 +1,12 @@
 # Search inconsistent Utility Network Rules
 The network rules dictate which features can connect to or associate with other types of features. This form allows users to search what assets are used to connect the pipelines and submit a correction.
 
-# Usage 
+## Usage 
 
-# Requirements
+## Requirements
 ArcGIS Survey123 
 
-# Contributing 
+## Contributing 
 Please refer to each project's style and contribution guidelines for submitting patches and additions. In general, we follow the "fork-and-pull" Git workflow.
 
 Fork the repo on GitHub
