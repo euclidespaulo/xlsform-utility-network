@@ -4,7 +4,10 @@ The network rules dictate which features can connect to or associate with other 
 ## Usage 
 
 ## Requirements
-ArcGIS Survey123 
+- ArcGIS PRO
+- ArcGIS Online / ArcGIS Enterprise
+- Utility Network
+- ArcGIS Survey123 
 
 ## Contributing 
 Welcomes contributions from anyone and everyone. In general, we follow the "fork-and-pull" Git workflow.
