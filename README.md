@@ -34,7 +34,7 @@ Information sharing within the organization is streamlined through a simple link
 
 ## Upcoming Presentation
 
-We are excited to announce that this project will be presented at the **URISA Conference** in October 2024. The presentation will cover the development process, key features, and real-world applications of our solution. We invite you to join us to learn more and discuss how this tool can benefit the utility sector.
+We are excited to announce that this project will be presented at the **URISA Conference** in October 2024. The presentation will cover the development process, key features, and real-world applications of our solution.. For more details, visit the [URISA GIS-Pro 2024 Conference](https://urisa.org/page/GIS-Pro2024). 
 
 ## Community Engagement
 
