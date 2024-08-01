@@ -1,7 +1,7 @@
 
 function getInterception(fromGroupOption, fromTypeOption, toGroupOption, toTypeOption) {
   
-  // URL 
+  // URL
   
   const url = 'Your_utility_network_rules.xlsx';
 
