@@ -1,6 +1,8 @@
 
 function getInterception(fromGroupOption, fromTypeOption, toGroupOption, toTypeOption) {
   
+  // URL 
+  
   const url = 'Your_utility_network_rules.xlsx';
 
  const xhr = new XMLHttpRequest();
