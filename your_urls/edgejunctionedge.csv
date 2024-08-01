@@ -1,0 +1,32 @@
+fromGroup,fromType,toGroup,toType,viaFeature,viaGroup,viaType,ObjectId
+Customer Pipe,Bare Steel,Riser Pipe,Wrought Iron,PipelineJunction,Screw,UNK,1
+Customer Pipe,Cast Iron,Riser Pipe,Coated Steel,PipelineJunction,Drip,Pot,2
+Customer Pipe,Cast Iron,Riser Pipe,Reconditioned Cast Iron,PipelineJunction,Drip,Drip,3
+Bond Wire,Bond Wire,Rectifier Cable,Rectifier Cable,PipelineJunction,Bond Junction,Above Ground,4
+Distribution Pipe,Coated Steel,Distribution Pipe,Reconditioned Steel,PipelineDevice,Regulator,Regulator,2506
+Distribution Pipe,Coated Steel,Distribution Pipe,Reconditioned Steel,PipelineDevice,Regulator,UNK,2507
+Distribution Pipe,Coated Steel,Distribution Pipe,Reconditioned Steel,PipelineDevice,Regulator,Unknown,2508
+Distribution Pipe,Coated Steel,Distribution Pipe,Reconditioned Steel,PipelineDevice,Relief Valve,Blow Off,2509
+Distribution Pipe,Coated Steel,Distribution Pipe,Reconditioned Steel,PipelineDevice,Relief Valve,UNK,2510
+Distribution Pipe,Coated Steel,Distribution Pipe,Reconditioned Steel,PipelineDevice,Relief Valve,Unknown,2511
+Distribution Pipe,Coated Steel,Distribution Pipe,Reconditioned Steel,PipelineJunction,Reducer,Bushing,2512
+Distribution Pipe,Coated Steel,Distribution Pipe,Reconditioned Steel,PipelineJunction,Reducer,Metal Reducer,2513
+Distribution Pipe,Coated Steel,Distribution Pipe,Reconditioned Steel,PipelineJunction,Reducer,Plastic Reducer,2514
+Gathering Pipe,Ductile Iron,Riser Pipe,Reconditioned Cast Iron,PipelineJunction,Expansion Joint,Unknown,6989
+Gathering Pipe,Ductile Iron,Riser Pipe,Reconditioned Cast Iron,PipelineJunction,Flange,Metal Flange,6990
+Gathering Pipe,Ductile Iron,Riser Pipe,Reconditioned Cast Iron,PipelineJunction,Reducer,Metal Reducer,6991
+Gathering Pipe,Ductile Iron,Riser Pipe,Reconditioned Cast Iron,PipelineJunction,Saddle,Metal Saddle,6992
+Gathering Pipe,Ductile Iron,Riser Pipe,Reconditioned Cast Iron,PipelineJunction,Screw,Screw,6993
+Gathering Pipe,Ductile Iron,Riser Pipe,Reconditioned Cast Iron,PipelineJunction,Screw,UNK,6994
+Gathering Pipe,Ductile Iron,Riser Pipe,Reconditioned Cast Iron,PipelineJunction,Screw,Unknown,6995
+Gathering Pipe,Ductile Iron,Riser Pipe,Reconditioned Cast Iron,PipelineJunction,Tee,Metal 3-Way,6996
+Gathering Pipe,Ductile Iron,Riser Pipe,Reconditioned Cast Iron,PipelineJunction,Tee,UNK,6997
+Gathering Pipe,Ductile Iron,Riser Pipe,Reconditioned Cast Iron,PipelineJunction,UNK,Unknown Type,6998
+Gathering Pipe,Ductile Iron,Riser Pipe,Reconditioned Cast Iron,PipelineJunction,Weld,Steel Patch,6999
+Gathering Pipe,Ductile Iron,Riser Pipe,Reconditioned Cast Iron,PipelineJunction,Weld,UNK,7000
+Gathering Pipe,Ductile Iron,Riser Pipe,Reconditioned Cast Iron,PipelineJunction,Weld,Unknown,7001
+Gathering Pipe,Ductile Iron,Riser Pipe,Reconditioned Cast Iron,PipelineJunction,Weld,Weld,7002
+Gathering Pipe,Ductile Iron,Station Pipe,Ductile Iron,PipelineJunction,Coupling,Bell Joint,7003
+Gathering Pipe,Ductile Iron,Station Pipe,Ductile Iron,PipelineJunction,Coupling,Metal Coupling,7004
+Gathering Pipe,Ductile Iron,Station Pipe,Ductile Iron,PipelineJunction,Elbow,Metal Elbow,7005
+Gathering Pipe,Ductile Iron,Station Pipe,Ductile Iron,PipelineJunction,Electro Stop,Electro Stop,7006
