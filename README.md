@@ -1,6 +1,3 @@
-Certainly! Below is a Markdown version of the README suitable for a GitHub repository:
-
-```markdown
 # Utility Network Rules Verifier
 
 A tool for enhancing utility network management by addressing challenges in rule customization and promoting continuous improvement.
