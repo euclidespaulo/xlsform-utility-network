@@ -1,32 +1,25 @@
-fromGroup,fromType,toGroup,toType,viaFeature,viaGroup,viaType,ObjectId
-Customer Pipe,Bare Steel,Riser Pipe,Wrought Iron,PipelineJunction,Screw,UNK,1
-Customer Pipe,Cast Iron,Riser Pipe,Coated Steel,PipelineJunction,Drip,Pot,2
-Customer Pipe,Cast Iron,Riser Pipe,Reconditioned Cast Iron,PipelineJunction,Drip,Drip,3
-Bond Wire,Bond Wire,Rectifier Cable,Rectifier Cable,PipelineJunction,Bond Junction,Above Ground,4
-Distribution Pipe,Coated Steel,Distribution Pipe,Reconditioned Steel,PipelineDevice,Regulator,Regulator,2506
-Distribution Pipe,Coated Steel,Distribution Pipe,Reconditioned Steel,PipelineDevice,Regulator,UNK,2507
-Distribution Pipe,Coated Steel,Distribution Pipe,Reconditioned Steel,PipelineDevice,Regulator,Unknown,2508
-Distribution Pipe,Coated Steel,Distribution Pipe,Reconditioned Steel,PipelineDevice,Relief Valve,Blow Off,2509
-Distribution Pipe,Coated Steel,Distribution Pipe,Reconditioned Steel,PipelineDevice,Relief Valve,UNK,2510
-Distribution Pipe,Coated Steel,Distribution Pipe,Reconditioned Steel,PipelineDevice,Relief Valve,Unknown,2511
-Distribution Pipe,Coated Steel,Distribution Pipe,Reconditioned Steel,PipelineJunction,Reducer,Bushing,2512
-Distribution Pipe,Coated Steel,Distribution Pipe,Reconditioned Steel,PipelineJunction,Reducer,Metal Reducer,2513
-Distribution Pipe,Coated Steel,Distribution Pipe,Reconditioned Steel,PipelineJunction,Reducer,Plastic Reducer,2514
-Gathering Pipe,Ductile Iron,Riser Pipe,Reconditioned Cast Iron,PipelineJunction,Expansion Joint,Unknown,6989
-Gathering Pipe,Ductile Iron,Riser Pipe,Reconditioned Cast Iron,PipelineJunction,Flange,Metal Flange,6990
-Gathering Pipe,Ductile Iron,Riser Pipe,Reconditioned Cast Iron,PipelineJunction,Reducer,Metal Reducer,6991
-Gathering Pipe,Ductile Iron,Riser Pipe,Reconditioned Cast Iron,PipelineJunction,Saddle,Metal Saddle,6992
-Gathering Pipe,Ductile Iron,Riser Pipe,Reconditioned Cast Iron,PipelineJunction,Screw,Screw,6993
-Gathering Pipe,Ductile Iron,Riser Pipe,Reconditioned Cast Iron,PipelineJunction,Screw,UNK,6994
-Gathering Pipe,Ductile Iron,Riser Pipe,Reconditioned Cast Iron,PipelineJunction,Screw,Unknown,6995
-Gathering Pipe,Ductile Iron,Riser Pipe,Reconditioned Cast Iron,PipelineJunction,Tee,Metal 3-Way,6996
-Gathering Pipe,Ductile Iron,Riser Pipe,Reconditioned Cast Iron,PipelineJunction,Tee,UNK,6997
-Gathering Pipe,Ductile Iron,Riser Pipe,Reconditioned Cast Iron,PipelineJunction,UNK,Unknown Type,6998
-Gathering Pipe,Ductile Iron,Riser Pipe,Reconditioned Cast Iron,PipelineJunction,Weld,Steel Patch,6999
-Gathering Pipe,Ductile Iron,Riser Pipe,Reconditioned Cast Iron,PipelineJunction,Weld,UNK,7000
-Gathering Pipe,Ductile Iron,Riser Pipe,Reconditioned Cast Iron,PipelineJunction,Weld,Unknown,7001
-Gathering Pipe,Ductile Iron,Riser Pipe,Reconditioned Cast Iron,PipelineJunction,Weld,Weld,7002
-Gathering Pipe,Ductile Iron,Station Pipe,Ductile Iron,PipelineJunction,Coupling,Bell Joint,7003
-Gathering Pipe,Ductile Iron,Station Pipe,Ductile Iron,PipelineJunction,Coupling,Metal Coupling,7004
-Gathering Pipe,Ductile Iron,Station Pipe,Ductile Iron,PipelineJunction,Elbow,Metal Elbow,7005
-Gathering Pipe,Ductile Iron,Station Pipe,Ductile Iron,PipelineJunction,Electro Stop,Electro Stop,7006
+RuleID,RuleType,FromClassName,FromAssetGroupCode,fromGroup,FromAssetTypeCode,fromType,FromTerminal,ToClassName,ToAssetGroupCode,toGroup,ToAssetTypeCode,toType,ToTerminal,viaFeature,ViaAssetGroupCode,viaGroup,ViaAssetTypeCode,viaType,ViaTerminal
+1924,EdgeJunctionEdgeConnectivity,meh.unadmin.ElectricLine,1,High Voltage Busbar,1,AC Station Single Phase,,meh.unadmin.ElectricLine,3,High Voltage Connector,40,AC Connector,,meh.unadmin.ElectricJunction,3,High Voltage Line End,45,AC Busbar Terminator,
+1925,EdgeJunctionEdgeConnectivity,meh.unadmin.ElectricLine,1,High Voltage Busbar,2,AC Station Three Phase,,meh.unadmin.ElectricLine,3,High Voltage Connector,40,AC Connector,,meh.unadmin.ElectricJunction,3,High Voltage Line End,45,AC Busbar Terminator,
+1926,EdgeJunctionEdgeConnectivity,meh.unadmin.ElectricLine,1,High Voltage Busbar,3,DC Station,,meh.unadmin.ElectricLine,3,High Voltage Connector,41,DC Connector,,meh.unadmin.ElectricJunction,3,High Voltage Line End,46,DC Busbar Terminator,
+1927,EdgeJunctionEdgeConnectivity,meh.unadmin.ElectricLine,2,High Voltage Conductor,20,AC Overhead,,meh.unadmin.ElectricLine,2,High Voltage Conductor,21,AC Submersible,,meh.unadmin.ElectricJunction,3,High Voltage Line End,43,AC Riser,
+1928,EdgeJunctionEdgeConnectivity,meh.unadmin.ElectricLine,2,High Voltage Conductor,20,AC Overhead,,meh.unadmin.ElectricLine,2,High Voltage Conductor,22,AC Underground,,meh.unadmin.ElectricJunction,3,High Voltage Line End,43,AC Riser,
+1929,EdgeJunctionEdgeConnectivity,meh.unadmin.ElectricLine,2,High Voltage Conductor,23,DC Overhead,,meh.unadmin.ElectricLine,2,High Voltage Conductor,24,DC Submersible,,meh.unadmin.ElectricJunction,3,High Voltage Line End,44,DC Riser,
+1930,EdgeJunctionEdgeConnectivity,meh.unadmin.ElectricLine,2,High Voltage Conductor,23,DC Overhead,,meh.unadmin.ElectricLine,2,High Voltage Conductor,25,DC Underground,,meh.unadmin.ElectricJunction,3,High Voltage Line End,44,DC Riser,
+1931,EdgeJunctionEdgeConnectivity,meh.unadmin.ElectricLine,5,Low Voltage Busbar,80,Cabinet,,meh.unadmin.ElectricLine,6,Low Voltage Conductor,102,Underground,,meh.unadmin.ElectricJunction,6,Low Voltage Line End,101,Underground Terminator,
+1932,EdgeJunctionEdgeConnectivity,meh.unadmin.ElectricLine,5,Low Voltage Busbar,80,Cabinet,,meh.unadmin.ElectricLine,7,Low Voltage Connector,120,Connector,,meh.unadmin.ElectricJunction,6,Low Voltage Line End,101,Underground Terminator,
+1933,EdgeJunctionEdgeConnectivity,meh.unadmin.ElectricLine,6,Low Voltage Conductor,100,Overhead,,meh.unadmin.ElectricLine,6,Low Voltage Conductor,101,Submersible,,meh.unadmin.ElectricJunction,6,Low Voltage Line End,103,Riser,
+1934,EdgeJunctionEdgeConnectivity,meh.unadmin.ElectricLine,6,Low Voltage Conductor,100,Overhead,,meh.unadmin.ElectricLine,6,Low Voltage Conductor,102,Underground,,meh.unadmin.ElectricJunction,6,Low Voltage Line End,103,Riser,
+1935,EdgeJunctionEdgeConnectivity,meh.unadmin.ElectricLine,8,Medium Voltage Busbar,140,Cabinet Single Phase,,meh.unadmin.ElectricLine,10,Medium Voltage Connector,180,Single Phase,,meh.unadmin.ElectricDevice,37,Medium Voltage Switch,755,Underground Single Phase Disconnect,Single Terminal
+1936,EdgeJunctionEdgeConnectivity,meh.unadmin.ElectricLine,8,Medium Voltage Busbar,140,Cabinet Single Phase,,meh.unadmin.ElectricLine,10,Medium Voltage Connector,180,Single Phase,,meh.unadmin.ElectricDevice,37,Medium Voltage Switch,758,Underground Single Phase Load Break,Single Terminal
+1937,EdgeJunctionEdgeConnectivity,meh.unadmin.ElectricLine,8,Medium Voltage Busbar,143,Station Three Phase,,meh.unadmin.ElectricLine,9,Medium Voltage Conductor,166,Underground Three Phase,,meh.unadmin.ElectricJunction,9,Medium Voltage Line End,103,Riser,
+1938,EdgeJunctionEdgeConnectivity,meh.unadmin.ElectricLine,9,Medium Voltage Conductor,160,Overhead Single Phase,,meh.unadmin.ElectricLine,9,Medium Voltage Conductor,160,Overhead Single Phase,,meh.unadmin.ElectricJunction,9,Medium Voltage Line End,103,Riser,
+1939,EdgeJunctionEdgeConnectivity,meh.unadmin.ElectricLine,9,Medium Voltage Conductor,160,Overhead Single Phase,,meh.unadmin.ElectricLine,9,Medium Voltage Conductor,165,Underground Single Phase,,meh.unadmin.ElectricJunction,9,Medium Voltage Line End,103,Riser,
+1940,EdgeJunctionEdgeConnectivity,meh.unadmin.ElectricLine,9,Medium Voltage Conductor,161,Overhead Three Phase,,meh.unadmin.ElectricLine,9,Medium Voltage Conductor,161,Overhead Three Phase,,meh.unadmin.ElectricJunction,9,Medium Voltage Line End,103,Riser,
+1941,EdgeJunctionEdgeConnectivity,meh.unadmin.ElectricLine,9,Medium Voltage Conductor,161,Overhead Three Phase,,meh.unadmin.ElectricLine,9,Medium Voltage Conductor,166,Underground Three Phase,,meh.unadmin.ElectricJunction,9,Medium Voltage Line End,103,Riser,
+1942,EdgeJunctionEdgeConnectivity,meh.unadmin.ElectricLine,9,Medium Voltage Conductor,162,Overhead Two Phase,,meh.unadmin.ElectricLine,9,Medium Voltage Conductor,162,Overhead Two Phase,,meh.unadmin.ElectricJunction,9,Medium Voltage Line End,103,Riser,
+1943,EdgeJunctionEdgeConnectivity,meh.unadmin.ElectricLine,9,Medium Voltage Conductor,162,Overhead Two Phase,,meh.unadmin.ElectricLine,9,Medium Voltage Conductor,167,Underground Two Phase,,meh.unadmin.ElectricDevice,37,Medium Voltage Switch,733,Overhead Three Phase Load Break,SS:S1
+1944,EdgeJunctionEdgeConnectivity,meh.unadmin.ElectricLine,9,Medium Voltage Conductor,162,Overhead Two Phase,,meh.unadmin.ElectricLine,9,Medium Voltage Conductor,167,Underground Two Phase,,meh.unadmin.ElectricDevice,37,Medium Voltage Switch,733,Overhead Three Phase Load Break,SS:S2
+1945,EdgeJunctionEdgeConnectivity,meh.unadmin.ElectricLine,9,Medium Voltage Conductor,162,Overhead Two Phase,,meh.unadmin.ElectricLine,9,Medium Voltage Conductor,167,Underground Two Phase,,meh.unadmin.ElectricDevice,37,Medium Voltage Switch,744,Overhead Three Phase Recloser,SS:S1
+1946,EdgeJunctionEdgeConnectivity,meh.unadmin.ElectricLine,9,Medium Voltage Conductor,162,Overhead Two Phase,,meh.unadmin.ElectricLine,9,Medium Voltage Conductor,167,Underground Two Phase,,meh.unadmin.ElectricDevice,37,Medium Voltage Switch,744,Overhead Three Phase Recloser,SS:S2
+1947,EdgeJunctionEdgeConnectivity,meh.unadmin.ElectricLine,9,Medium Voltage Conductor,162,Overhead Two Phase,,meh.unadmin.ElectricLine,9,Medium Voltage Conductor,167,Underground Two Phase,,meh.unadmin.ElectricJunction,9,Medium Voltage Line End,103,Riser,
