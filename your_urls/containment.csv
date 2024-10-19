@@ -1,4 +1,4 @@
-RuleID,RuleType,FromClassName,FromAssetGroupCode,FROMASSETGROUP,FromAssetTypeCode,FROMASSETTYPE,FromTerminal,ToClassName,ToAssetGroupCode,TOASSETTYPE,ToAssetTypeCode,ToAssetType,ToTerminal,ViaClassName,ViaAssetGroupCode,ViaAssetGroup,ViaAssetTypeCode,ViaAssetType,ViaTerminal
+RuleID,RuleType,FromClassName,FromAssetGroupCode,FROMASSETGROUP,FromAssetTypeCode,FROMASSETTYPE,FromTerminal,ToClassName,ToAssetGroupCode,TOASSETGROUP,ToAssetTypeCode,TOASSETTYPE,ToTerminal,ViaClassName,ViaAssetGroupCode,ViaAssetGroup,ViaAssetTypeCode,ViaAssetType,ViaTerminal
 728,Containment,meh.unadmin.ElectricAssembly,1,High Voltage AC Power Factor Correcting Bank,1,Series,,meh.unadmin.ElectricLine,1,High Voltage Busbar,1,AC Station Single Phase,,,,,,,
 729,Containment,meh.unadmin.ElectricAssembly,1,High Voltage AC Power Factor Correcting Bank,1,Series,,meh.unadmin.ElectricLine,1,High Voltage Busbar,2,AC Station Three Phase,,,,,,,
 730,Containment,meh.unadmin.ElectricAssembly,1,High Voltage AC Power Factor Correcting Bank,1,Series,,meh.unadmin.ElectricLine,2,High Voltage Conductor,20,AC Overhead,,,,,,,
