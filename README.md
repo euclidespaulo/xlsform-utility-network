@@ -29,3 +29,7 @@ Migrating to the ArcGIS Utility Network presents challenges in adapting Esri’s
 2. **Data Extraction**: JavaScript verifies data from CSV files containing utility network rules.
 3. **Rule Verification**: The tool cross-checks data, highlighting inconsistencies.
 4. **Continuous Improvement**: Regular updates ensure evolving company needs are met.
+
+## - ESRI ArcGIS Survey123 community: [Utility Network Rules Validation](https://survey123.maps.arcgis.com/home/item.html?id=49d126c346684a85ba25b6a7d0e88760) 
+ATT: [I'm attaching an image that demonstrates how to locate it in the Survey123 Gallery](https://geoanalytic.maps.arcgis.com/home/item.html?id=a656fa57752f48d78b66a28a84bfe2b5)
+
